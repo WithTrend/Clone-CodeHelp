@@ -1,14 +1,14 @@
 /* eslint-disable react/prop-types */
 export const Animatedbtn = (props) => {
-  const { name } = props; // Destructure 'name' from props
+  const { name } = props;
 
   return (
     <button
-      className="border-1 border-black px-4 py-2 rounded-lg  w-96 h-16 cursor-pointer
-    shadow-xl  text-white font-bold"
+      className="w-full max-w-xs sm:max-w-sm px-6 py-3  rounded-lg cursor-pointer
+      shadow-xl text-white font-bold transition-all duration-300 hover:bg-indigo-700 hover:text-white"
       style={{ backgroundColor: "rgb(102, 116, 204)" }}
     >
-      {name} {/* Render the dynamic name */}
+      {name}
     </button>
   );
 };

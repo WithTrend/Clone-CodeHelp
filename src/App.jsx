@@ -12,6 +12,7 @@ export const App = () => {
       <Herosection />
       <Stats />
       <Connect />
+      <Connect />
     </>
   );
 };
